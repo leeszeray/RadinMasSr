@@ -62,18 +62,20 @@ def main():
     event_df = pd.DataFrame(event_data)  # save to pandas data frame
 
     # class_df.to_csv('Class.csv')  # write to csv for visual checking
-    class_df.to_json('Class.json')  # write to json for database
+    class_df.to_json('classes.json')  # write to json for database
 
     # interest_df.to_csv('InterestDetails.csv')  # write to csv for visual checking
-    interest_df.to_json('Interest.json')  # write to json for database
+    interest_df.to_json('interests.json')  # write to json for database
 
     # event_df.to_csv('EventDetails.csv')  # write to csv for visual checking
-    event_df.to_json('Event.json')  # write to json for database
+    event_df.to_json('events.json')  # write to json for database
 
     print('Course, Interest Group and Event data saved.')
 
 
-    upload_data()   # uploads data onto fire base
+    upload_data('classes')   # uploads data onto fire base realtime database
+    upload_data('events')   # uploads data onto fire base realtime database
+    upload_data('interests')   # uploads data onto fire base realtime database
 
     print("Upload Complete!")
 

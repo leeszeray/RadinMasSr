@@ -73,7 +73,7 @@ def extract_individual_pages(filtered_links):
             product_name = driver.find_element_by_xpath("//div[@class='pageTitle']").text
             price = driver.find_element_by_xpath("//*[@id='accordionEvtFeeDetails']/div[1]/div").text
             date_time = driver.find_element_by_xpath("//*[@id='content_0_pnlCourseUpperLayer']/div/div[4]/div[1]/div/div/div/div").text
-            session_no = driver.find_element_by_xpath("//*[@id='content_0_pnlCourseUpperLayer']/div/div[4]/div[1]/div/div/div/div").text
+            session_no = driver.find_element_by_xpath("//*[@id='content_0_pnlCourseUpperLayer']/div/div[4]/div[2]/div/div/div/div").text
             class_schedule = driver.find_element_by_xpath("//*[@id='content_0_pnlCourseUpperLayer']/div/div[4]/div[3]/div/div/div").text
             location = driver.find_element_by_xpath("//*[@id='content_0_pnlCourseUpperLayer']/div/div[4]/div[4]/div/div/div").text
             venue = driver.find_element_by_xpath("//*[@id='content_0_pnlCourseUpperLayer']/div/div[4]/div[5]/div/div").text
