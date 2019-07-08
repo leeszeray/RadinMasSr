@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e464a0aa-bcd0-43c0-a8ba-8c886a92d403" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DialogFlow.py" beforeDir="false" afterPath="$PROJECT_DIR$/DialogFlow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrapePages.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScrapePages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UploadFireBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/UploadFireBase.py" afterDir="false" />
-    </list>
+    <list default="true" id="e464a0aa-bcd0-43c0-a8ba-8c886a92d403" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrapePages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="75" column="129" selection-start-line="75" selection-start-column="129" selection-end-line="75" selection-end-column="129" />
+            <state relative-caret-position="88">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -286,7 +276,7 @@
       <workItem from="1562167792557" duration="6586000" />
       <workItem from="1562385249023" duration="2245000" />
       <workItem from="1562427772442" duration="2399000" />
-      <workItem from="1562568588484" duration="1486000" />
+      <workItem from="1562568588484" duration="1790000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1562169198483</created>
@@ -295,11 +285,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562169198483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes made to xpath due to wrong reference.&#10;Changes made to index.js, which should be functional now.">
+      <created>1562570566965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562570566965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes made to xpath due to wrong reference.&#10;Changes made to index.js, which should be functional now.">
+      <created>1562570683854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562570683854</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes made to xpath due to wrong reference.&#10;Changes made to index.js, which should be functional now.">
+      <created>1562570696847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562570696847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12716000" />
+    <option name="totallyTimeSpent" value="13020000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -314,17 +325,17 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.26596606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.26596606" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988086" visible="true" weight="0.27482268" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988086" weight="0.27482268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33687943" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50119144" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
@@ -401,7 +412,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Changes made to xpath due to wrong reference.&#10;Changes made to index.js, which should be functional now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes made to xpath due to wrong reference.&#10;Changes made to index.js, which should be functional now." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RadinMasSr$UploadFireBase.coverage" NAME="UploadFireBase Coverage Results" MODIFIED="1562430036769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -521,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScrapePages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="75" column="129" selection-start-line="75" selection-start-column="129" selection-end-line="75" selection-end-column="129" />
+        <state relative-caret-position="88">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
